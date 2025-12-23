@@ -170,7 +170,8 @@ iframe {
 }
 /* Opcions de la secció de les conclusions */
 .conclusions-right {
-  max-width: 650px;
+  width: 800px;
+  max-width: 800px;
   text-align: justify;
 }
 
