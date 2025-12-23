@@ -195,23 +195,3 @@ iframe {
   font-size: 18px;
   line-height: 1.6;
 }
-
-/* Per a mòbils */
-@media (max-width: 600px) {
-  .section {
-    padding: 0 16px;
-  }
-}
-
-/* Per a mòbils */
-@media (max-width: 900px) {
-  .two-col {
-    grid-template-columns: 1fr;
-  }
-  .two-col-title {
-    margin-bottom: 10px;
-  }
-  .two-col .iframe-col iframe {
-    height: 300px;
-  }
-}
