@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+		<!--
+		  Autor: Francisco García Caparrós
+		  Activitat: PAC3
+		  Assignatura: Visualització de dades
+		  Versió: 2
+		-->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=1200">
+		<link rel="stylesheet" href="Files/frangc.css">
+		<script src="https://public.flourish.studio/resources/embed.js"></script>
+		<title>Narrativa sobre el conjunt de dades Hotel Booking Demand</title>
+	</head>
+	<body>
+		<header>
+		</header>
+		<main>
+			<section class="section intro">
+				<div class="section-main-title-intro">
+				  <h2>Narrativa sobre la demanda hotelera: reserves, economia i hostes</h2>
+				</div>
+				<div class="section-main-sub-title-intro">
+				  <p class="subtitle"><strong>Assignatura:</strong> M2.959 - Visualització de dades</p>
+				  <p><strong>Alumne:</strong> Francisco García Caparrós</p>
+				  <p><strong>Activitat:</strong> PAC3</p>
+				</div>
+				 <img src="Files/img1.jpg" alt="intro" class="intro-img">
+			</section>
+
+		  <!-- Secció 1 amb story de mapes -->
+		  <section class="section">
+			<h2 class="section-main-title">
+				Indicadors generals de reserves i cancel·lacions
+			</h2>
+			<h3>
+				Mapes de reserves i cancel·lacions: Explorador de dades
+			</h3>
+			<p>
+				  Europa, concretament Portugal, lidera en nombre de reserves i cancel·lacions pels dos hotels. D'altra banda, les taxes de cancel·lació ens indiquen que hi ha països que tenen una proporció de cancel·lacions més elevades que Portugal. Hong Kong o l'Aràbia Saudíta en són un exemple.
+			</p>
+			<div class="flourish-embed" data-src="story/3518576">
+			<noscript>
+				<img src="https://public.flourish.studio/story/3518576/thumbnail" width="100%" alt="visualization" />
+			</noscript>
+			</div>
+		  </section>
+		  
+		  <!-- Secció 2 amb 5 gràfics -->
+		  <section class="section two-col">
+			<div class="two-col-title">
+				<h2 class="section-main-title">
+					Volum i aspectes econòmics
+				</h2>
+			</div>
+			<div class="text-col">
+				<h3>
+					Evolució de les reserves i cancel·lacions per hotel
+				</h3>
+				<p>
+					<strong>City Hotel: </strong>En 2015, augment de reserves i cancel·lacions des del juliol fins a l'ocrubre, i disminució a octubre. En el 2016 les reserves augmenten des del gener i es mantenen en xifres semblants fins a octubre. Les cancel·lacions tenen un comportament semblant amb la diferència que hi ha una baixa i pujada al juny. El 2017 les reserves i cancel·lacions augmenten des del gener i comencen a disminuir des del maig i juliol.
+				</p>
+				<p>
+					<strong>Resort Hotel: </strong>Reserves i cancel·lacions amb tendències semblants en 2015, disminució al novembre i lleuger repunt al desembre. En 2016 hi ha un augment de reserves a principis d'any i al setembre. En aquest any les cancel·lacions tenen una tendència estable, encara que hi ha alguna pujada al juliol i octubre. En 2017 les cancel·lacions i reserves augmenten des del gener.
+				</p>
+			</div>
+			<div class="iframe-col">
+				<div class="flourish-embed flourish-chart no-border" data-src="visualisation/26831266">
+					<noscript>
+						<img src="https://public.flourish.studio/visualisation/26831266/thumbnail" width="100%" alt="chart visualization" />
+					</noscript>
+				</div>
+			</div>
+			</section>
+			<section class="section two-col-left">
+			  <div class="col iframe-col">
+				<div class="flourish-embed flourish-chart no-border" data-src="visualisation/26854839">
+				  <noscript>
+					<img src="https://public.flourish.studio/visualisation/26854839/thumbnail" width="100%" alt="chart visualization" />
+				  </noscript>
+				</div>
+			  </div>
+			  <div class="col text-col">
+				<h3>
+					Duració mitjana de l'estança
+				</h3>
+					<p>
+						En el cas de City Hotel, el seu valor màxim és de 3,28 aproximadament. La mitjana puja lleugerament a mesura que avança l'any. Al maig acostuma a baixar una lleugerament i sempre acaba l'any amb valors superiors als que va començar. Sobre Resort Hotel, amb 5,60 aprox. de valor màxim, la mitjana de l'estança puja des de principis d'any fins a arribar als mesos d'estiu, on comença a baixar i acaba en valors semblants que a la de City Hotel. De fet, a principis i finals d'any els valors s'assemblen pels dos hotels.
+					</p>
+			  </div>
+			</section>
+			<section class="section">
+				<h3>
+					Impacte econòmic de les cancel·lacions
+				</h3>
+			<p>
+				L'impacte econòmic de les cancel·lacions és superior en el cas de City Hotel, que s'arriba fins al 43% de les reserves cancel·lades en dos anys consecutius. Els valors són molts superiors a Resort Hotel, encara que en ambdós casos es veu que els imports han augmentat respecte al 2015.
+			</p>
+			<div class="flourish-embed flourish-chart no-border small-chart" data-src="visualisation/26854523">
+				<noscript>
+					<img src="https://public.flourish.studio/visualisation/26854523/thumbnail" width="100%" alt="chart visualization" />
+				</noscript>
+			</div>
+		  </section>
+		<section class="section matrix-2x2">
+		  <!-- Fila 1: textos -->
+		  <div>
+			<h3>
+				Tarifa mitjana diària total per mes
+			</h3>
+			<p>
+				City Hotel destaca per tenir valors més elevats amb pics a la tardor del 2015 i 2016. A la primavera del 2016 arriba al seu valor màxim, que és d'uns 307.000 € aproximadament. Aquests números encaixen amb el gràfic anterior de les reserves. Resort Hotel té els màxims sempre a l'estiu, i el valor màxim registrat és de 223.000 € a l'estiu del 2017.
+			</p>
+		  </div>
+		  <div>
+			<h3>
+				Evolució de la tarifa mitjana diària per temporada
+			</h3>
+			<p>
+				En els tres anys, la tarifa mitjana diària de Resort Hotel és superior a la de City Hotel a l'estiu, que és temporada alta. Arriba al valor de 166,21 € a l'estiu del 2017. Totes les altres temporades, la seva tarifa està per sota de City Hotel.
+			</p>
+		  </div>
+		  <!-- Fila 2: gràfics -->
+		  <div>
+			<iframe src='https://flo.uri.sh/visualisation/26875278/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:500px;border:none' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+		  </div>
+		  <div>
+			<iframe src='https://flo.uri.sh/visualisation/26875649/embed' title='Interactive or visual content' class='flourish-embed-iframe no-border' frameborder='0' scrolling='no' style='width:100%;height:500px;border:none' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+		</div>
+		</section>
+		  <!-- Secció 3 amb 4 gràfics -->
+	    <section class="section">
+			<h2 class="section-main-title">
+				Hostes i fidelització
+			</h2>
+			<h3>﻿﻿
+				Tipus d'hostes durant els tres anys
+			</h3>
+			<p class="p-corrected">
+				La proporció per tipologia d'hoste és molt semblant en els dos hotels. Sempre destaquen les parelles com el grup majoritari de reserves. En el cas de City Hotel, arriben a les 20.000 reserves aproximadament. Els altres conjunts que segueixen són els grups individuals, famílies, i grups. Cal remarcar que en el cas de Resort Hotel, el nombre de reserves fetes pels grups no arriba al miler.
+			</p>
+			<iframe src='https://flo.uri.sh/visualisation/26911478/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:500px;border:none' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>	
+		</section>
+		<section class="section two-col">
+			<div class="col text-col">
+			<h3>
+				Durada mitjana d'estança per tipologia d'hoste
+			</h3>
+				<p>
+					<strong>City Hotel</strong>: Mitjana d'estança per tipus d'hoste molt semblant cada mes. Les mitjanes augmenten des del 2015 i el 2017 la majoria dels grups està per sobre de la mitjana de 3 dies en quasi cada mes.
+				</p>
+				<p>
+					<strong>Resort Hotel</strong>: Mitjana d'estança superior a City Hotel i amb pics als mesos d'estiu en totes les tipologies. Hi ha grups que passen dels sis dies d'estança mitjana, com són els grups el juliol del 2016, o les parelles al juny d'aquest mateix any.
+				</p>
+			</div>
+			<div class="flourish-embed flourish-chart no-border" data-src="visualisation/26895988">
+				<noscript>
+					<img src="https://public.flourish.studio/visualisation/26895988/thumbnail" width="100%" alt="chart visualization" />
+				</noscript>
+			</div>
+		</section>
+		<section class="section two-col">
+			<div class="col text-col">
+				<h3>
+					﻿﻿Evolució del nombre de reserves per tipus d'hoste
+				</h3>
+				<p>
+					Es pot apreciar que en els dos hotels quasi cada mes hi ha un gran volum de parelles en comparació als altres grups. Ara bé, podem veure alguns patrons, com el de les reserves individuals a l'abril i març, i les famílies, que als mesos de juliol i agost augmenta el nombre.
+				</p>
+			</div>
+			<div class="flourish-embed flourish-heatmap no-border" data-src="visualisation/26911837">
+				<noscript>
+					<img src="https://public.flourish.studio/visualisation/26911837/thumbnail" width="100%" alt="heatmap visualization" />
+				</noscript>
+			</div>
+		</section>
+		<section class="section">
+			<h2>﻿﻿
+				Fidelització – proporció anual de repetidors
+			</h2>
+			<p class="p-corrected">
+				A excepció de City Hotel, el nombre de repetidors augmenta durant els tres anys. Destacaria la pujada dels repetidors dels grups de parelles, grups i individuals. Aquests últims van arribar fins al 21% el 2017 a Resort Hotel. En el cas contrari, tenim les famílies, parelles, i grups de City Hotel, on, a banda que les proporcions són inferiors al de l'altre hotel, no hi ha molta variació i n'hi ha una lleugera disminució.
+			</p>
+			<div class="flourish-embed flourish-slope no-border" data-src="visualisation/26918886">
+				<noscript>
+					<img src="https://public.flourish.studio/visualisation/26918886/thumbnail" width="100%" alt="slope visualization" />
+				</noscript>
+			</div>
+		</section>
+		  <!-- Darrera secció, conclusions -->
+		 <section class="section">
+			<div class="conclusions-grid">
+				<div class="conclusions-left">
+					<img src="Files/img2.jpg" alt="Imagen conclusiones" class="conclusions-img">
+				</div>
+				<div class="conclusions-right">
+					<h2>Conclusions</h2>
+					<h3>Reserves i cancel·lacions</h3>
+					<p>
+						Els països no es comporten igual tot i generar volums semblants. Alguns aporten molts clients i d’altres cancel·len molt més sovint. Portugal destaca per nombre de reserves i cancel·lacions, però altres païssos tenen proporcions de cancel·lacions més elevats.
+					</p>
+					<h3>Impacte econòmic</h3>
+					<p>
+						Les cancel·lacions generen una pèrdua potencial d’ingressos significativa. L’impacte varia per any i per hotel, però en el cas de City Hotel, els dos darrers anys les pèrdues per cancel·lacions van superar el 40% dels seus ingressos potencials.
+					</p>
+					<h3>Estacionalitat</h3>
+					<p>
+						La tarifa mitjana diària i la duració de l’estada depenen fortament de la temporada. Cada hotel presenta patrons diferents i requereix estratègies específiques. La mitjana de l'estança en el cas de City Hotel és molt semblant cada mes de l'any, mentre que City Hotel té una mitjana molt elevada a l'estiu en comparació amb altres mesos. Si s'analitza per tipus d'hoste, obtenim resultats similars.
+					</p>
+					<h3>Fidelització per tipus d'hoste</h3>
+					<p>
+						El tipus de client habitual pels dos hotels són les parelles, però els clients que més repeteixen són els individuals. La fidelització creix de manera sostinguda, especialment al Resort Hotel.
+					</p>
+				</div>
+			</div>
+		  </section>
+		</main>
+		<script src="Files/frangc.js"></script>
+	</body>
+</html>
