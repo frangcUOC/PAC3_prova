@@ -164,13 +164,13 @@ iframe {
 /* Opcions de la secció de les conclusions */
 .conclusions-img {
   width: 100%;
-  max-width: 650px;
+  max-width: 850px;
   border-radius: 24px;
   display: block;
 }
 /* Opcions de la secció de les conclusions */
 .conclusions-right {
-  max-width: 750px;
+  max-width: 650px;
   text-align: justify;
 }
 
